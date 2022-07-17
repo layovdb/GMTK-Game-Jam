@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class Dice : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    int _top;
+    int _bottom;
+    int _left;
+    int _right;
+    int _front;
+    int _back;
+    
+    void OnMouseRight()
+    {
+        _top = _left;
+        _right = _top;
+        _bottom = _right;
+        _left = _bottom;
+    }
+    private void Update()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnMouseDown()
     {
         
     }
+
 }
