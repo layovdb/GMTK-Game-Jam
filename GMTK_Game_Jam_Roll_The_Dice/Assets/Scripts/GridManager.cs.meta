@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6667bb49f6cacdf4082b2250207254cf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _normalTile: {fileID: -1703827637017970610, guid: 84a36ef7939c91049afea6593a00e309, type: 3}
+  - _endTile: {fileID: -1594386252398755587, guid: 6437fb405246cd043868e23ec98437c2, type: 3}
+  - _cam: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
