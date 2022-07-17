@@ -7,8 +7,7 @@ public class GridManager : MonoBehaviour
     [SerializeField] private int _height, _width;
     [SerializeField] private Tile _normalTile, _endTile;
     [SerializeField] private Transform _cam;
-    // Start is called before the first frame update
-
+    
     void Start()
     {
         GenerateGrid();
